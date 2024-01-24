@@ -4,7 +4,7 @@ var dailyBudget = document.querySelector(".daily-budget");
 var tripInfo = function () {
   var totalBudget = Number(prompt("What is your total budget for this trip? "));
    var numDays = Number(prompt("How many days does your trip last? "));
-   var accommodation = Number(prompt("What are your total accommodation cost? "));
+   var accommodation = Number(prompt("What is your total accommodation cost? "));
 
   calculateDailyBudget(totalBudget, accommodation, numDays);
 };
